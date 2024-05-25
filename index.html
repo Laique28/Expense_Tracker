@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Expenses Tracker</h1>
+    <div class="container">
+        <div class="inputcontainer">
+            <Label for="item">Item Name:</Label><br>
+            <input required type="text" id="Item" name="Item" autocomplete="off"><br>
+            <label for="price">Item Amount:</label><br>
+            <input required type="number" name="Amout" id="Amount">
+        </div>
+        <div class="buttoncontainer">
+            <button id="addbtn">Add Item</button>
+            <button id="clearbtn">Clear All</button>
+        </div>
+        <div id="cont" class="listcontainer">
+
+        </div>
+        <div id="errcont">
+            <h6>Please Enter Item & Amount</h6>
+        </div>
+        <label for="amount">Total</label>
+        <p id="amount">&#8377;0.00</p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 2rem;
+    color: rgb(7, 45, 46);
+    letter-spacing: 5px;
+}
+
+* {
+    font-family: cursive;
+}
+
+body {
+    background: linear-gradient(to right, #1abc9c, #3498db);
+}
+
+label {
+    font-size: 20px;
+
+    font-family: monospace;
+    color: brown;
+    font-weight: 900;
+
+}
+
+input {
+    font-size: 20px;
+    border-radius: 8px;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 340px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 15px 4px;
+}
+
+button {
+    font-size: 16px;
+    font-family: fantasy;
+    margin: 25px 7px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(105, 93, 93);
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+p {
+    font-size: 1.4rem;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-family: monospace;
+
+
+}
+
+#cont p {
+    background-color: darkgrey;
+    padding: 10px 100px;
+    border-radius: 5px;
+}
+
+#cont h6 {
+    background-color: darkslategrey;
+    color: white;
+    font-size: 20px;
+}
